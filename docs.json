@@ -115,5 +115,8 @@
       "linkedin": "https://linkedin.com/company/mintlify"
     }
   },
-  "logo": "/logos/logo1.svg"
+  "logo": "/logos/logo1.svg",
+  "appearance": {
+    "strict": true
+  }
 }
