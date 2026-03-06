@@ -84,8 +84,9 @@
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/light.png",
+    "dark": "/dark.png",
+    "href": "https://elvara.dev"
   },
   "navbar": {
     "links": [
