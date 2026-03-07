@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "almond",
+  "theme": "mint",
   "name": "Elvara Support",
   "colors": {
     "primary": "#117fae",
@@ -24,7 +24,6 @@
         "groups": [
           {
             "group": "Quick Support",
-            "icon": "seedling",
             "expanded": true,
             "pages": [
               "quickstart-guide"
@@ -32,7 +31,6 @@
           },
           {
             "group": "Core Tools",
-            "icon": "clipboard-list-check",
             "pages": [
               "kanban-boards",
               "page-organiser",
@@ -42,15 +40,14 @@
           },
           {
             "group": "Workspaces",
-            "icon": "network-wired",
             "pages": [
               "workspace-design",
+              "member-management",
               "analytics"
             ]
           },
           {
             "group": "Billing & Accounts",
-            "icon": "folder-closed",
             "pages": [
               "billing-support",
               "account-recovery",
