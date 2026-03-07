@@ -12,71 +12,49 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
+          "anchor": "Our Site",
           "icon": "book-open-cover",
-          "href": "https://mintlify.com/docs"
-        },
-        {
-          "anchor": "Blog",
-          "icon": "newspaper",
-          "href": "https://mintlify.com/blog"
+          "href": "https://elvara.dev"
         }
       ]
     },
-    "tabs": [
+    "products": [
       {
-        "tab": "Guides",
+        "product": "Elvara Task Management",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Quick Support",
+            "icon": "seedling",
+            "expanded": true,
             "pages": [
-              "index",
-              "quickstart",
-              "kanban-boards"
+              "quickstart-guide"
             ]
           },
           {
-            "group": "Customization",
+            "group": "Core Tools",
+            "icon": "clipboard-list-check",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "kanban-boards",
+              "page-organiser",
+              "calender",
+              "whiteboards"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "Workspaces",
+            "icon": "network-wired",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
+              "workspace-design",
+              "analytics"
             ]
           },
           {
-            "group": "AI tools",
+            "group": "Billing & Accounts",
+            "icon": "folder-closed",
             "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "billing-support",
+              "account-recovery",
+              "account-linking"
             ]
           }
         ]
