@@ -48,6 +48,13 @@
                   "member-management",
                   "analytics"
                 ]
+              },
+              {
+                "group": "Dashboard",
+                "pages": [
+                  "dashboard-editing",
+                  "dashboard-pages"
+                ]
               }
             ]
           }
@@ -60,13 +67,17 @@
             "group": "Accounts",
             "pages": [
               "account-recovery",
-              "account-linking"
+              "account-linking",
+              "account-intergrations"
             ]
           },
           {
             "group": "Billing",
             "pages": [
-              "billing-support"
+              "billing-support",
+              "subscription-management",
+              "plan-upgrading",
+              "plan-limits"
             ]
           }
         ]
@@ -86,6 +97,26 @@
               "google",
               "discord",
               "slack"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Policy & Guideance",
+        "menu": [
+          {
+            "item": "Refund Policy"
+          },
+          {
+            "item": "Terms of Service",
+            "pages": [
+              "terms-of-service"
+            ]
+          },
+          {
+            "item": "Privacy Policy",
+            "pages": [
+              "privacy-policy"
             ]
           }
         ]
