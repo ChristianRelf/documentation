@@ -70,6 +70,25 @@
             ]
           }
         ]
+      },
+      {
+        "tab": "Developer Documentation",
+        "groups": [
+          {
+            "group": "API Endpoints",
+            "pages": [
+              "placeholder"
+            ]
+          },
+          {
+            "group": "Intergrations",
+            "pages": [
+              "google",
+              "discord",
+              "slack"
+            ]
+          }
+        ]
       }
     ]
   },
