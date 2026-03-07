@@ -18,40 +18,58 @@
         }
       ]
     },
-    "products": [
+    "tabs": [
       {
-        "product": "Elvara Task Management",
-        "groups": [
+        "tab": "Documentation",
+        "products": [
           {
-            "group": "Quick Support",
-            "expanded": true,
-            "pages": [
-              "quickstart-guide"
+            "product": "Elvara Task Management",
+            "groups": [
+              {
+                "group": "Quick Support",
+                "expanded": true,
+                "pages": [
+                  "quickstart-guide"
+                ]
+              },
+              {
+                "group": "Core Tools",
+                "pages": [
+                  "kanban-boards",
+                  "page-organiser",
+                  "calender",
+                  "whiteboards"
+                ]
+              },
+              {
+                "group": "Workspaces",
+                "pages": [
+                  "workspace-design",
+                  "member-management",
+                  "analytics"
+                ]
+              },
+              {
+                "group": "Billing & Accounts",
+                "pages": [
+                  "billing-support",
+                  "account-recovery",
+                  "account-linking"
+                ]
+              }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "tab": "Test",
+        "products": [
           {
-            "group": "Core Tools",
-            "pages": [
-              "kanban-boards",
-              "page-organiser",
-              "calender",
-              "whiteboards"
-            ]
-          },
-          {
-            "group": "Workspaces",
-            "pages": [
-              "workspace-design",
-              "member-management",
-              "analytics"
-            ]
-          },
-          {
-            "group": "Billing & Accounts",
-            "pages": [
-              "billing-support",
-              "account-recovery",
-              "account-linking"
+            "product": "Test",
+            "anchors": [
+              {
+                "anchor": "Untitled Anchor"
+              }
             ]
           }
         ]
