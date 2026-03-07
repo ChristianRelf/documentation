@@ -48,28 +48,25 @@
                   "member-management",
                   "analytics"
                 ]
-              },
-              {
-                "group": "Billing & Accounts",
-                "pages": [
-                  "billing-support",
-                  "account-recovery",
-                  "account-linking"
-                ]
               }
             ]
           }
         ]
       },
       {
-        "tab": "Test",
-        "products": [
+        "tab": "Accounts & Billing",
+        "groups": [
           {
-            "product": "Test",
-            "anchors": [
-              {
-                "anchor": "Untitled Anchor"
-              }
+            "group": "Accounts",
+            "pages": [
+              "account-recovery",
+              "account-linking"
+            ]
+          },
+          {
+            "group": "Billing",
+            "pages": [
+              "billing-support"
             ]
           }
         ]
